@@ -14,28 +14,13 @@ public class User {
         this.lastName = lastName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getFirstName() {
-
-        return firstName;
-    }
+    public String getFirstName() { return firstName; }
 
     public String getLastName() {
         return lastName;
-    }
-
-    public int getId() {
-        return id;
     }
 }

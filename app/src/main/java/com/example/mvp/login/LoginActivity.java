@@ -33,6 +33,12 @@ public class LoginActivity extends AppCompatActivity implements LoginActivityMVP
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        /**
+         * Here we are injecting into our activity a context so that Dagger component interface will
+         * be used.
+         *
+         * We have to cast getApplication to our own App class
+         */
         ((App) getApplication()).getComponent().inject(this);
 
         firstName = (EditText) findViewById(R.id.loginActivity_firstName_editText);
