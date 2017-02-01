@@ -1,2 +1,2 @@
 # LVS.Training.Android.Mvp
-Training MVP project
+Training MVP project using Dagger 2
